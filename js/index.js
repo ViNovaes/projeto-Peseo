@@ -61,14 +61,18 @@ setInterval(() => {
     proximaImg()
 }, 5000)
 
-function proximaImg(){
+function proximaImg() {
     cont++
 
-    if(cont > 3){
-        cont = 1 
+    if (cont > 3) {
+        cont = 1
     }
 
-    document.getElementById('radio'+cont).checked = true
+    document.getElementById('radio' + cont).checked = true
 }
 
 // fim do carrossel
+
+
+// teste para voltar para a pg de forma bonita
+
