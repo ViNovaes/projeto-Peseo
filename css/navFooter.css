@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .nav-list a {
@@ -121,77 +122,81 @@ nav {
 
 /* Inicio do Footer */
 
-footer {
+.footer{
     background-color: #0079FF;
+    padding: 20px 0;
 }
-
-.page_footer {
-    display: flex;
-    color: #F6FA70;
+.page_footer{
+    max-width: 1170px;
+    margin: auto;
 }
-
-.page_footer ul {
-    width: 25%;
-}
-
-.page_footer ul img {
-    margin-top: 5%;
-    margin-right: -15%;
-    margin-left: 35%;
-    width: 100px;
-}
-
-.page_footer h3 {
-    margin-bottom: 60px;
-    font-weight: 600;
-}
-
-.page_footer .redes_sociais img {
-    margin-right: 10px;
-}
-
-.page_footer li {
-    margin: 10px 0;
+.footer ul{
     list-style: none;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer_col h4{
+   font-size:18px ;
+   color: #F6FA70;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+}
 
-.page_footer a {
+ .footer_col ul li{
+    margin-bottom: 10px;
+ }
+ .footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
     color: #F6FA70;
     text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+ }
+ .footer_col ul li a:hover{ 
+   color: rgb(255, 217, 0);
+   padding-left: 8px;
+ }
+ .footer_col .social_links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+ }
+ .footer_col .social_links a:hover{ 
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
 
-}
-
-
-@media (max-width: 999px) {
-    .page_footer {
-        flex-direction: row;
-
-    }
-
-    .page_footer ul {
-        width: 100%;
+  /* Responsivo */
+  @media (max-width:999px) {
+    .footer.col{
+        width: 50%;
         margin-bottom: 30px;
     }
-
-    .page_footer ul img {
-        float: left;
-        width: 5%;
+  }
+  @media (max-width:574px) {
+    .footer.col{
+        width: 100%;
     }
+  }
 
-    .page_footer li {
-        list-style: none;
-    }
 
-    .page_footer li a {
-        text-decoration: none;
-    }
 
-    .page_footer ul img {
-        margin-top: 80px;
-        margin-left: 5%;
-        width: 50px;
-    }
-}
+
 
 /* Final do Footer */
 

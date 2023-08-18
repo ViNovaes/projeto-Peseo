@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/minhaconta.css">
     <link rel="stylesheet" href="css/navFooter.css">
     <link rel="icon" href="img/logoLink.png"> <!-- Usado para colocar imagem na barra do navgador -->
     <title>Minha Conta | Peseo </title>
 </head>
+
 <body>
-    
+
     <!-- PG SERÀ FEITA POR ISABELLI -->
 
-        <!-- Inicio do header/ menu do site -->
-        <header>
-            <nav id="navContainer">
-                <a class="logo" href="index.html"><img src="img/logo-png 1.png" alt=""></a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+    <!-- Inicio do header/ menu do site -->
+    <header>
+        <nav id="navContainer">
+            <a class="logo" href="index.html"><img src="img/logo-png 1.png" alt=""></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobreNos.html">Sobre nós</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="minhaConta.html">Minha conta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim do header/ menu do site -->
+    <main>
+    <div class="sobreCursos d-flex justify-content-around col-10">
+        <div class="col-8"><p>Aulas incompletas-Retome de onde você parou</p></div>
+        
+    </div>
+        <div class="containerPerfil">
+            <figure>
+                <img src="img/inspireTransform-mob.png" alt="" class="iconPerfil">
+            </figure>
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Você não tem nada ainda! Explore nossos Cursos. </p>
                 </div>
-                <ul class="nav-list">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="sobreNos.html">Sobre nós</a></li>
-                    <li><a href="cursos.html">Cursos</a></li>
-                    <li><a href="minhaConta.html">Minha conta</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Fim do header/ menu do site -->
+            </div>
+        </div>
+    
+    </main>
 
 
-
-            <!-- Botão que fica fixado para voltar ao inicio **NÃO PAGAR** Inicio dele-->
+    <!-- Botão que fica fixado para voltar ao inicio **NÃO PAGAR** Inicio dele-->
     <div class="btnFixed">
         <a href="#navContainer"><span><img src="img/Group 2.png" alt="Botão para voltar ao topo da página"></span></a>
     </div>
     <!-- Botão que fica fixado para voltar ao inicio **NÃO PAGAR** fim dele-->
-    
-        <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
