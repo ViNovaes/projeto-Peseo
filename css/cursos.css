@@ -3,62 +3,110 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* 
-.categorias ul{
+
+.box_categorias{
+    margin: 3% 10%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
-    margin-top: 3%;
+    background: #0079FF;
+    height: 5rem;
+    border-radius: 10px;
+    
 }
-.categorias ul li{
-    list-style: none;
-
-}
-.categorias ul a{
-    text-decoration: none;
-    color: black;
-}
-
-.dropdown li{
-    display: none;
-}
-ul li a:hover{
-    color: aqua;
-    display: block;
-}
-.categorias ul li:hover  .dropdown li {
-    display: block;
-} */
 
 ul#categorias {
     display: flex;
-    justify-content: space-around;
     margin-top: 3%;
     }
     #categorias li {
         list-style: none;
+        justify-content: space-around;
+        
     }
     #categorias li a {
-    color: #000000;
+    color: #F6FA70;
     text-decoration: none;
+    margin: 40px;
     }
-    #categorias li ul.dropdown li {
+    #categorias li table {
     display: block;
     margin: 2px 0px;
     }
-    #categorias li ul.dropdown {
+    #categorias li table {
     width:auto;
     position: absolute;
     z-index: 999;
     display: none;
     }
-    #categorias li:hover ul.dropdown{
+    #categorias li:hover table{
     display: block;
+    background: #0079FF;
+    border-radius: 5px;
     }
-.conteudo{
-    margin-top: 5%;
-    margin-left: 8%;
-}
-.conteudo video{
-    border-radius: 10px;
-    margin-top: 2%;
-}
+    #categorias li a:hover{
+        color: #ffee00;
+        transition: 0.3s;
+    }
+    #categorias table tr td{
+        padding: 10px;
+    }
+
+    .prin_card{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    /* Card */
+    .card{
+        width: 350px;
+        height: 430px;
+        margin: 25px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        transition: 0.3s;
+        margin-bottom: 50px;
+    }
+    .card_header{
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .card_img{
+        margin: auto;
+        min-width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .card_body{
+        height: 170px;
+        padding: 15px;
+        text-align: center;
+    }
+    .card_titulo{
+        font-size: 32px;
+        margin: 15px 0;
+    }
+    .card_texto{
+        font-size: 12px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .card_footer{
+        margin-top: 10px;
+        text-align: center;
+        background-color: #000000;
+    }
+    .card_footer a{
+        color: aliceblue;
+        display: block;
+        padding: 16px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .card:hover{
+        transform: scale3d(1.1, 1.1, 1);
+    }
