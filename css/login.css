@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
-main.container {
+div.container {
     margin: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     background: white;
     min-width: 320px;
     min-height: 40vh;
@@ -28,6 +28,13 @@ main h2::before {
     left: 0;
     border-radius: 8px;
     background: linear-gradient(45deg,#F6FA70, #0079FF );
+}
+
+img.figurePersom{
+    position: absolute;
+    bottom: 30%;
+    right: 5px;
+    z-index: 9996;
 }
 
 form {
@@ -104,10 +111,26 @@ form input[type="submit"]:hover {
     background: linear-gradient(to right, #0079FF, #F6FA70);
 }
 
+@media screen and (max-width: 1400px) {
+    main.container {
+        margin: 0;
+        margin-left: 0;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 10%;
+    }
+    img.figurePersom{
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 999px) {
 
     main.container {
         margin: 0;
+        margin-left: 0;
         margin-top: 10%;
         margin-left: 25%;
         margin-right: 25%;
@@ -116,7 +139,11 @@ form input[type="submit"]:hover {
     .cadastro {
         size: auto;
     }
+    img.figurePersom{
+        display: none;
+    }
 }
+
 
 @media screen and (max-width: 500px) {
 
@@ -133,16 +160,17 @@ form input[type="submit"]:hover {
     }
 }
 
-/* @media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
 
     main.container {
         margin: 0;
         margin-top: 15%;
-        margin-left: 35%;
+        margin-left: 15%;
         margin-right: 35%;
         margin-bottom: 15%;
     }
     .cadastro {
+        text-align: center;
         size: auto;
     }
-} */
+}
