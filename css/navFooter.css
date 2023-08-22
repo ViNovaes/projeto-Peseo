@@ -175,6 +175,9 @@ nav {
     display: block;
     transition: all 0.3s ease;
 }
+.footer_col .social_links a{
+    color: #0079FF;
+}
 
 .footer_col ul li a:hover {
     color: rgb(255, 217, 0);
@@ -188,7 +191,6 @@ nav {
     width: 40px;
     margin: 0 10px 10px 0;
     text-align: center;
-    transition: all 0.3s ease;
 }
 
 
