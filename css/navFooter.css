@@ -181,23 +181,17 @@ nav {
     padding-left: 8px;
 }
 
-.footer_col .social_links a {
+
+.footer_col .social_links img{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: black;
     margin: 0 10px 10px 0;
     text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
     transition: all 0.3s ease;
 }
 
-.footer_col .social_links a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #ffffff;
-}
+
 
 /* Responsivo */
 @media (max-width:999px) {

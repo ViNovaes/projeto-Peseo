@@ -61,6 +61,12 @@
     /* Titulo */
     .titulo h1{
         text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titulo2 h1{
+        text-align: center;
+        margin-bottom: 5%;
     }
 
     /* Card-Pricipal */
@@ -72,7 +78,7 @@
     }
     /* Card */
     .card{
-        width: 350px;
+        width: 700px;
         height: 430px;
         margin: 25px;
         background-color: aliceblue;
@@ -80,7 +86,17 @@
         overflow: hidden;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
         transition: 0.3s;
-        margin-bottom: 50px;
+        margin-bottom: 5%;
+    }
+    .card2{
+        width: 400px;
+        height: 430px;
+        margin: 25px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        transition: 0.3s;
     }
     .card_header{
         width: 100%;
@@ -122,3 +138,30 @@
     .card:hover{
         transform: scale3d(1.1, 1.1, 1);
     }
+    .space{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    /* Slider-Cards */
+    .swiper-navBtn {
+        color: #000;
+        height: 40px;
+        width: 40px;
+        background: #fff;
+        border-radius: 50%;
+      }
+      .swiper-navBtn::before,
+      .swiper-navBtn::after {
+        font-size: 18px;
+      }
+      
+      .swiper-pagination-bullet {
+        background-color: #000;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .swiper-navBtn {
+          display: none;
+        }
+      }
