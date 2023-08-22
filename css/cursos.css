@@ -59,8 +59,39 @@
     }
 
     /* Titulo */
+   
     .titulo h1{
         text-align: center;
+        text-decoration: underline;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titulo img{
+        width: 300px;
+        height: auto;
+        position: relative;
+    } 
+    .box_titulo .titulo{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Titulo2 */
+    
+    .titulo2 h1{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titulo2 img{
+        width: 500px;
+        height: auto;
+        position: relative;
+    } 
+    .box_titulo .titulo2{
+        display: flex;
+        justify-content: space-around;
     }
 
     /* Card-Pricipal */
@@ -72,7 +103,18 @@
     }
     /* Card */
     .card{
-        width: 350px;
+        width: 700px;
+        height: 470px;
+        margin: 25px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        transition: 0.3s;
+        margin-bottom: 5%;
+    }
+    .card2{
+        width: 400px;
         height: 430px;
         margin: 25px;
         background-color: aliceblue;
@@ -80,7 +122,6 @@
         overflow: hidden;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
         transition: 0.3s;
-        margin-bottom: 50px;
     }
     .card_header{
         width: 100%;
@@ -94,7 +135,7 @@
         overflow: hidden;
     }
     .card_body{
-        height: 170px;
+        height: 210px;
         padding: 15px;
         text-align: center;
     }
@@ -108,6 +149,7 @@
         margin: 0 auto;
     }
     .card_footer{
+        height: 200px;
         margin-top: 10px;
         text-align: center;
         background-color: #000000;
@@ -122,3 +164,33 @@
     .card:hover{
         transform: scale3d(1.1, 1.1, 1);
     }
+    .card2:hover{
+        transform: scale3d(1.1, 1.1, 1);
+    }
+    .space{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    /* Slider-Cards */
+    .swiper-navBtn {
+        color: #000;
+        height: 40px;
+        width: 40px;
+        background: #fff;
+        border-radius: 50%;
+      }
+      .swiper-navBtn::before,
+      .swiper-navBtn::after {
+        font-size: 18px;
+      }
+      
+      .swiper-pagination-bullet {
+        background-color: #000;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .swiper-navBtn {
+          display: none;
+        }
+      }
