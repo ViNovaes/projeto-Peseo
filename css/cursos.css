@@ -114,7 +114,7 @@
         margin-bottom: 5%;
     }
     .card2{
-        width: 400px;
+        width: 350px;
         height: 430px;
         margin: 25px;
         background-color: aliceblue;
@@ -131,11 +131,16 @@
     .card_img{
         margin: auto;
         min-width: 100%;
-        height: 200px;
+        height: 100%;
         overflow: hidden;
     }
     .card_body{
         height: 210px;
+        padding: 15px;
+        text-align: center;
+    }
+    .card_body2{
+        height: 170px;
         padding: 15px;
         text-align: center;
     }
