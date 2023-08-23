@@ -6,7 +6,6 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0;
     font-family: "Poppins", sans-serif;
 }
 
@@ -91,8 +90,6 @@ nav {
     body {
         overflow-x: hidden;
     }
-
-
 
     .nav-list {
         position: absolute;
