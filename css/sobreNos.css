@@ -22,8 +22,8 @@
 
 /* Card */
 .card{
-    width: 280px;
-    height: 230px;
+    width: 400px;
+    height: 250px;
     margin: 25px;
     background-color: aliceblue;
     border-radius: 20px;
@@ -31,6 +31,24 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     transition: 0.3s;
     margin-bottom: 50px;
+    text-align: center;
+}
+.card2{
+    width: 400px;
+    height: 250px;
+    margin: 25px;
+    margin-left: 24.5%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card_texto{
+    font-size: 30px;
 }
 .card_header{
     width: 100%;
