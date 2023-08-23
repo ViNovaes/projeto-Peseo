@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
+
 div.container {
     margin: 10%;
     margin-left: 30%;
@@ -13,20 +14,20 @@ div.container {
     border-radius: 8px;
 }
 
-main h2 {
+div h2 {
     font-weight: 600;
     margin-bottom: 2rem;
     position: relative;
 }
 
-main h2::before {
+div h2::before {
     content: '';
     position: absolute;
     height: 4px;
     width: 50px;
     bottom: 3px;
     left: 0;
-    border-radius: 8px;
+    border-radius: 20px;
     background: linear-gradient(45deg,#F6FA70, #0079FF );
 }
 
@@ -112,11 +113,10 @@ form input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 1400px) {
-    main.container {
+    div.container {
         margin: 0;
-        margin-left: 0;
         margin-top: 10%;
-        margin-left: 25%;
+        margin-left: 30%;
         margin-right: 25%;
         margin-bottom: 10%;
     }
@@ -128,11 +128,10 @@ form input[type="submit"]:hover {
 
 @media screen and (max-width: 999px) {
 
-    main.container {
+    div.container {
         margin: 0;
-        margin-left: 0;
         margin-top: 10%;
-        margin-left: 25%;
+        margin-left: 20%;
         margin-right: 25%;
         margin-bottom: 10%;
     }
@@ -147,10 +146,10 @@ form input[type="submit"]:hover {
 
 @media screen and (max-width: 500px) {
 
-    main.container {
+    div.container {
         margin: 0;
         margin-top: 10%;
-        margin-left: 12%;
+        margin-left: 15% !important;
         margin-right: 20%;
         margin-bottom: 10%;
     }
@@ -164,9 +163,41 @@ form input[type="submit"]:hover {
 
     main.container {
         margin: 0;
-        margin-top: 15%;
-        margin-left: 15%;
-        margin-right: 35%;
+        margin-top: 10%;
+        margin-left: 5% !important;
+        margin-right: 5%;
+        margin-bottom: 15%;
+    }
+    .cadastro {
+        text-align: center;
+        size: auto;
+    }
+}
+
+@media screen and (max-width: 
+164) {
+
+    main.container {
+        margin: 0;
+        margin-top: 10%;
+        margin-left: 5% !important;
+        margin-right: 5%;
+        margin-bottom: 15%;
+    }
+    .cadastro {
+        text-align: center;
+        size: auto;
+    }
+}
+
+@media screen and (max-width: 
+164) {
+
+    main.container {
+        margin: 0;
+        margin-top: 10%;
+        margin-left: % !important;
+        margin-right: 5%;
         margin-bottom: 15%;
     }
     .cadastro {
