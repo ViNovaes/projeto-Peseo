@@ -37,6 +37,7 @@ ul#categorias {
     display: block;
     margin: 2px 0px;
 }
+
 #categorias .dropdown-materiais li {
     text-align: center;
     margin: 10px;
@@ -224,26 +225,29 @@ ul#categorias {
         display: none;
     }
 }
+
 @media (max-width: 1020px) {
-    
-ul#categorias {
-    text-align: center;
-    font-size: 15px;
+
+    ul#categorias {
+        text-align: center;
+        font-size: 15px;
+    }
 }
-}
+
 @media (max-width: 970px) {
-    
-ul#categorias {
-    text-align: center;
-    font-size: 14px;
+
+    ul#categorias {
+        text-align: center;
+        font-size: 14px;
+    }
 }
-}
+
 @media (max-width: 900px) {
-    
-ul#categorias {
-    text-align: center;
-   display: flex;
-   justify-content: space-around;
-   font-size: 10px;
-}
+
+    ul#categorias {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        font-size: 10px;
+    }
 }

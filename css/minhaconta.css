@@ -1,63 +1,71 @@
-.iconPerfil{
+.iconPerfil {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
-.containerPerfil{
+
+.containerPerfil {
     display: flex;
     /* margin: 10px; */
     /* padding: 40px; */
     margin-left: 5%;
 }
-.containerPerfil .card{
-    margin-left: 50px;  
+
+.containerPerfil .card {
+    margin-left: 50px;
 }
-.containerPerfil .card{
+
+.containerPerfil .card {
     width: 80%;
     background-color: #0079FF;
     border-radius: 50px;
     color: #F6FA70;
 
 }
-.sobreCursos p{
-   /*  margin-top: 50px; */
+
+.sobreCursos p {
+    /*  margin-top: 50px; */
     text-align: left;
     margin-bottom: 0px !important;
     margin-top: 5%;
-    
+
 }
-.containerCard{
+
+.containerCard {
     margin: 70px;
     padding: 50px;
 }
-#card1 .card-body{
+
+#card1 .card-body {
     padding: 60px;
-    background-color:#0079FF;
+    background-color: #0079FF;
     color: #F6FA70;
     border-radius: 3.5px;
 }
 
-#card2 .card-body{
+#card2 .card-body {
     padding: 60px;
-    background-color:#0079FF;
+    background-color: #0079FF;
     color: #F6FA70;
     border-radius: 3.5px;
 }
-.card-text-2{
+
+.card-text-2 {
     margin-top: 50px;
 }
-.card-text-3{
+
+.card-text-3 {
     margin-left: 6.5%;
     color: aqua;
 }
-.card-title{
+
+.card-title {
     color: black;
 }
-@media (max-width: 999px){
-        .card-text-3{
-            margin-left: 10%;
-            color: black;}
+
+@media (max-width: 999px) {
+    .card-text-3 {
+        margin-left: 10%;
+        color: black;
     }
-
-
-
+}

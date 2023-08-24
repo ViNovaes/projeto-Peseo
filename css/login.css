@@ -28,10 +28,10 @@ div h2::before {
     bottom: 3px;
     left: 0;
     border-radius: 20px;
-    background: linear-gradient(45deg,#F6FA70, #0079FF );
+    background: linear-gradient(45deg, #F6FA70, #0079FF);
 }
 
-img.figurePersom{
+img.figurePersom {
     position: absolute;
     bottom: 30%;
     right: 5px;
@@ -120,7 +120,8 @@ form input[type="submit"]:hover {
         margin-right: 25%;
         margin-bottom: 10%;
     }
-    img.figurePersom{
+
+    img.figurePersom {
         display: none;
     }
 }
@@ -135,10 +136,12 @@ form input[type="submit"]:hover {
         margin-right: 25%;
         margin-bottom: 10%;
     }
+
     .cadastro {
         size: auto;
     }
-    img.figurePersom{
+
+    img.figurePersom {
         display: none;
     }
 }
@@ -153,6 +156,7 @@ form input[type="submit"]:hover {
         margin-right: 20%;
         margin-bottom: 10%;
     }
+
     .cadastro {
         text-align: center;
         margin-top: 35px;
@@ -168,14 +172,14 @@ form input[type="submit"]:hover {
         margin-right: 5%;
         margin-bottom: 15%;
     }
+
     .cadastro {
         text-align: center;
         size: auto;
     }
 }
 
-@media screen and (max-width: 
-164) {
+@media screen and (max-width: 164) {
 
     main.container {
         margin: 0;
@@ -184,14 +188,14 @@ form input[type="submit"]:hover {
         margin-right: 5%;
         margin-bottom: 15%;
     }
+
     .cadastro {
         text-align: center;
         size: auto;
     }
 }
 
-@media screen and (max-width: 
-164) {
+@media screen and (max-width: 164) {
 
     main.container {
         margin: 0;
@@ -200,6 +204,7 @@ form input[type="submit"]:hover {
         margin-right: 5%;
         margin-bottom: 15%;
     }
+
     .cadastro {
         text-align: center;
         size: auto;

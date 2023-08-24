@@ -1,18 +1,18 @@
-.prin_card{
+.prin_card {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.prin_card2{
+.prin_card2 {
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     display: flex;
 }
 
-.prin_card3{
+.prin_card3 {
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@
 
 
 /* Card */
-.card{
+.card {
     width: 400px;
     height: 250px;
     margin: 25px;
@@ -33,7 +33,8 @@
     margin-bottom: 50px;
     text-align: center;
 }
-.card2{
+
+.card2 {
     width: 400px;
     height: 250px;
     margin: 25px;
@@ -47,51 +48,59 @@
     text-align: center;
 }
 
-.card_texto{
+.card_texto {
     font-size: 30px;
 }
-.card_header{
+
+.card_header {
     width: 100%;
     height: 200px;
     overflow: hidden;
 }
-.card_img{
+
+.card_img {
     margin: auto;
     min-width: 100%;
     height: 200px;
     overflow: hidden;
 }
-.card_body{
+
+.card_body {
     height: 170px;
     padding: 15px;
     text-align: center;
 }
-.card_titulo{
+
+.card_titulo {
     font-size: 32px;
     margin: 15px 0;
 }
-.card_texto{
+
+.card_texto {
     font-size: 12px;
     width: 250px;
     margin: 0 auto;
 }
-.card_footer{
+
+.card_footer {
     margin-top: 10px;
     text-align: center;
     background-color: #000000;
 }
-.card_footer a{
+
+.card_footer a {
     color: aliceblue;
     display: block;
     padding: 16px;
     text-decoration: none;
     font-weight: 600;
 }
-.card:hover{
+
+.card:hover {
     transform: scale3d(1.1, 1.1, 1);
 }
 
-#escola{
-    float:right;
+#escola {
+    float: right;
 
 }
