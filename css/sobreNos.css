@@ -38,7 +38,7 @@
     width: 400px;
     height: 250px;
     margin: 25px;
-    margin-left: 24.5%;
+    margin-left: 15%;
     background-color: aliceblue;
     border-radius: 20px;
     overflow: hidden;
@@ -66,7 +66,7 @@
 }
 
 .card_body {
-    height: 170px;
+    height: 180px;
     padding: 15px;
     text-align: center;
 }
@@ -78,8 +78,9 @@
 
 .card_texto {
     font-size: 12px;
-    width: 250px;
+    width: 260px;
     margin: 0 auto;
+    height: 5px;
 }
 
 .card_footer {
@@ -100,7 +101,16 @@
     transform: scale3d(1.1, 1.1, 1);
 }
 
-#escola {
-    float: right;
-
+.imgEscola{
+    width: 400px;
+    height: 250px;
+    margin: 25px;
+    margin-left: 60.5%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    margin-bottom: 50px;
+    position: absolute;
+    top:15% ;
 }
