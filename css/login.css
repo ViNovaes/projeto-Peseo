@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-
-
-
 div.container {
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 30%;
     margin-right: 30%;
     background: white;
@@ -11,16 +8,16 @@ div.container {
     min-height: 40vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 8px ;
 }
 
-div h2 {
+main h2 {
     font-weight: 600;
     margin-bottom: 2rem;
     position: relative;
 }
 
-div h2::before {
+main h2::before {
     content: '';
     position: absolute;
     height: 4px;
@@ -38,6 +35,22 @@ img.figurePersom {
     z-index: 9996;
 }
 
+.cadastro {
+    text-align: center;
+    margin-top: 45px;
+    text-shadow: 1px 0px 0px #000000;
+}
+.cadastro a{
+    color: #82bafa;
+    text-decoration: none;
+
+}
+
+.cadastro a:hover{
+    color: #cecfa3;
+    text-decoration: none;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -49,11 +62,6 @@ form {
 
 form .input-field:first-child {
     margin-bottom: 1.5rem;
-}
-
-.cadastro {
-    text-align: center;
-    margin-top: 45px;
 }
 
 .input-field .underline::before {
@@ -113,12 +121,13 @@ form input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 1400px) {
+
     div.container {
         margin: 0;
-        margin-top: 10%;
+        margin-top: 15%;
+        margin-bottom: 10%;
         margin-left: 30%;
         margin-right: 25%;
-        margin-bottom: 10%;
     }
 
     img.figurePersom {
@@ -149,7 +158,7 @@ form input[type="submit"]:hover {
 
 @media screen and (max-width: 500px) {
 
-    div.container {
+    main.container {
         margin: 0;
         margin-top: 10%;
         margin-left: 15% !important;
@@ -168,7 +177,8 @@ form input[type="submit"]:hover {
     main.container {
         margin: 0;
         margin-top: 10%;
-        margin-left: 5% !important;
+        margin-bottom: 10%;
+        margin-left: 0% !important;
         margin-right: 5%;
         margin-bottom: 15%;
     }
@@ -184,7 +194,7 @@ form input[type="submit"]:hover {
     main.container {
         margin: 0;
         margin-top: 10%;
-        margin-left: 5% !important;
+        margin-left: 2% !important;
         margin-right: 5%;
         margin-bottom: 15%;
     }
@@ -200,7 +210,7 @@ form input[type="submit"]:hover {
     main.container {
         margin: 0;
         margin-top: 10%;
-        margin-left: % !important;
+        margin-left: 2% !important;
         margin-right: 5%;
         margin-bottom: 15%;
     }
@@ -210,3 +220,5 @@ form input[type="submit"]:hover {
         size: auto;
     }
 }
+
+

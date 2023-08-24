@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel="stylesheet" href="css/navFooter.css">
     <link rel="icon" href="img/imgs-nav_footer/header/icon-site.png">
     <!-- Usado para colocar imagem na barra do navgador -->
@@ -36,8 +36,54 @@
     </header>
     <!-- Fim do header/ menu do site -->
 
+    <!-- Main cadastro inicio -->
 
 
+    <main>
+        <div class="box">
+            <div class="img-box">
+                <img src="img/img-cadastro/cadastroform.png" alt="">
+            </div>
+            <div class="form-box">
+                <h2>Criar Conta</h2>
+                <p> Já é um membro? <a href="#"> Login </a> </p>
+                <form action="#">
+                    <div class="input-group">
+                        <label for="nome"> Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite o seu nome completo" autocomplete="off"
+                            autofocus required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite o seu email" autocomplete="off" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" placeholder="Digite o seu telefone" autocomplete="off" required>
+                    </div>
+
+                    <div class="input-group w50">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="Digite sua senha" autocomplete="off" required>
+                    </div>
+
+                    <div class="input-group w50">
+                        <label for="Confirmarsenha">Confirmar Senha</label>
+                        <input type="password" id="Confirmarsenha" placeholder="Confirme a senha" autocomplete="off"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <button>Cadastrar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- Main cadastro fim -->
 
     <!-- Começo Footer -->
     <footer class="footer">

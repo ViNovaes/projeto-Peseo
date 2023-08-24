@@ -273,4 +273,12 @@ nav {
     }
 }
 
+
+@media (max-width:500) {
+    .btnFixed {
+        display: none;
+    }
+}
+
+
 /*  Fim do botão para voltar ao inicio */

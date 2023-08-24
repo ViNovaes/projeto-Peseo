@@ -1,0 +1,166 @@
+
+div.box {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 30%;
+    background: white;
+    min-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px ;
+}
+
+
+
+.w50{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.box{
+    display: flex;
+    width: 930px;
+}
+
+.img-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px  0 0 20px;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 50px 5/*  */0px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+.form-box h2{
+    font-weight: 600;
+    position: relative;
+    font-size: 30px;
+}
+
+.form-box h2::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 50px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #F6FA70, #0079FF);
+}
+
+
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+.form-box p a{
+    color: #0079FF;
+    text-decoration: none;
+}
+
+.form-box form{
+    margin: 20px 0;
+}
+
+form .input-group{
+    margin-bottom: 15px;
+}
+
+form .input-group label{
+    color: #000000;
+    font-weight: bold;
+    /* display: block; */
+    margin-bottom: 5px;
+}
+
+form .input-group input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba(106, 136, 238, 0.116);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #325f96;
+    transition: all 0.4s ease;
+}
+
+form .input-group input:focus{
+    border-color: #0077ff;
+}
+
+/*  */
+/* form .input-group input.underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+form .input-group input .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #F6FA70, #0079FF);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+} */
+
+/*  */
+.input-field input:focus~.underline::after {
+    transform: scaleX(1);
+}
+
+form .input-group button{
+    width: 100%;
+    height: 47px;
+    background: #0079FF;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: #F6FA70;
+    cursor: pointer;
+    font-size: 16px;
+}
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
+    }
+}
