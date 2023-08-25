@@ -1,4 +1,4 @@
-.prin_card {
+/* .prin_card {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -20,7 +20,6 @@
 }
 
 
-/* Card */
 .card {
     width: 400px;
     height: 250px;
@@ -46,6 +45,7 @@
     transition: 0.3s;
     margin-bottom: 50px;
     text-align: center;
+    margin-top: 20%;
 }
 
 .card_texto {
@@ -112,5 +112,17 @@
     transition: 0.3s;
     margin-bottom: 50px;
     position: absolute;
-    top:15% ;
+    top: 10%;
+
 }
+ */
+
+    @media (max-width:999px) {
+/*       .imgEscola {
+        top: 20%;
+      }  
+      .card2{
+        margin-bottom: 50%;
+      } */
+    }
+
