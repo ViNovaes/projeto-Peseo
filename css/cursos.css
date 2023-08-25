@@ -77,7 +77,7 @@ ul#categorias {
 }
 
 .titulo img {
-    width: 300px;
+    width: 100px;
     height: auto;
     position: relative;
 }
@@ -116,7 +116,7 @@ ul#categorias {
 
 /* Card */
 .card {
-    width: 700px;
+    /* width: 300px !important; */
     height: 470px;
     margin: 25px;
     background-color: aliceblue;
