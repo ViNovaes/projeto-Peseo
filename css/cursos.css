@@ -201,6 +201,10 @@ ul#categorias {
     width: 100%;
     margin-bottom: 5%;
 }
+#img_titulo{
+    width: 300px; 
+    height: 300px;
+}
 
 /* Slider-Cards */
 .swiper-navBtn {
@@ -225,29 +229,16 @@ ul#categorias {
         display: none;
     }
 }
-
-@media (max-width: 1020px) {
-
-    ul#categorias {
-        text-align: center;
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 970px) {
-
-    ul#categorias {
-        text-align: center;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1030px) {
 
     ul#categorias {
         text-align: center;
         display: flex;
         justify-content: space-around;
-        font-size: 10px;
+        font-size: 0.8em;
     }
+    #img_titulo{
+        display: none;
+    }
+
 }

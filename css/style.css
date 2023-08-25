@@ -1,7 +1,13 @@
 /* css do index */
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* inicio css main */
-
+body{
+  background-color: aliceblue;
+}
 /*Inicio carrossel */
 
 
@@ -103,12 +109,32 @@ section.slider {
 .containerInfo {
   margin-top: 10%;
   margin-bottom: 3%;
-  text-align: center;
-  padding-bottom: 200px;
 }
-
-
-
+.container_titulo{
+  color: #F6FA70;
+  background-color: #0079FF;
+  margin: auto;
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+}
+.container_titulo2{
+  color: #F6FA70;
+  background-color: #0079FF;
+  margin: auto;
+  margin-top: 5%;
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+}
+.container_content{
+  background-color: #0079FF;
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
 .container1 {
   padding-left: 25%;
   padding-right: 25%;
@@ -116,7 +142,107 @@ section.slider {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* margin-top: 200px; */
 }
+/* Card */
+/* Card-Pricipal */
+.prin_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
 
+/* Card */
+.card {
+  /* width: 300px !important; */
+  height: 470px;
+  margin: 25px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  margin-bottom: 5%;
+}
+
+.card2 {
+  width: 350px;
+  height: 430px;
+  margin: 25px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.card_header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card_img {
+  margin-top: 5%;
+  margin-left: 10%;
+  min-width: 80%;
+  height: 100%;
+}
+
+.card_body {
+  height: 210px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card_body2 {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card_titulo {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.card_texto {
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.card_footer {
+  height: 200px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.card_footer a {
+  color: aliceblue;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.card2:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.space {
+  width: 100%;
+  margin-bottom: 5%;
+}
+#img_titulo{
+  width: 300px; 
+  height: 300px;
+}
 
 
 /* Fim das escritas da pagina inicial */
