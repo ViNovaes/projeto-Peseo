@@ -109,11 +109,43 @@ nav {
 
     .nav-list {
         position: absolute;
-        /* position: fixed; */
+        top: 10vh;
+        right: 0;
+        width: 250px;
+        height: 92vh;
+        background: #0079FF;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 9999;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
         top: 10vh;
         right: 0;
         width: 50vw;
-        /* height: 100%; */
         height: 92vh;
         background: #0079FF;
         flex-direction: column;
@@ -132,8 +164,6 @@ nav {
     .mobile-menu {
         display: block;
     }
-
-
 }
 
 /* fim do css para o nav-Bar/header */
@@ -264,7 +294,7 @@ nav {
     opacity: 5.7;
 }
 
-@media (max-width:999px) {
+/* @media (max-width:999px) {
     .btnFixed {
         position: fixed;
         bottom: 20px;
@@ -272,10 +302,27 @@ nav {
         z-index: 9998;
     }
 }
+ */
 
-
-@media (max-width:500) {
+@media (max-width:999px) {
     .btnFixed {
+        display: none;
+    }
+}
+
+
+/* @media (max-width:500px) {
+    .btnFixed {
+        position: fixed;
+        bottom: 20px;
+        right: 1px;
+        z-index: 9998;
+    }
+} */
+
+
+@media (max-width:999px) {
+    div .btnFixed a img {
         display: none;
     }
 }

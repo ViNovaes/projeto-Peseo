@@ -1,6 +1,5 @@
 
-
-//inicio header para mobile
+//inicio menu para mobile
 
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
@@ -46,7 +45,7 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
-//fim header para mobile
+//fim menu para mobile
 
 
 //inicio do carrossel
@@ -74,5 +73,15 @@ function proximaImg() {
 // fim do carrossel
 
 
-// teste para voltar para a pg de forma bonita
+//teste
 
+$(document).ready(function () {
+
+    $("#menuClick").click(function () {
+
+        $("#showMenu").fadeIn("slow");
+
+    });
+
+
+});
