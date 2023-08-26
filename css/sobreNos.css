@@ -101,20 +101,7 @@
     transform: scale3d(1.1, 1.1, 1);
 }
 
-.imgEscola{
-    width: 400px;
-    height: 250px;
-    margin: 25px;
-    margin-left: 60.5%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-    transition: 0.3s;
-    margin-bottom: 50px;
-    position: absolute;
-    top: 10%;
 
-}
  */
 
     @media (max-width:999px) {
@@ -125,4 +112,39 @@
         margin-bottom: 50%;
       } */
     }
+img{
+    border-radius: 15px;
+}
 
+.nossaH{
+    margin-right: 70%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.trescards{
+    text-align: center;
+    height: 15%;
+    
+}
+
+.visao{
+    margin-right: 70%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.missao{
+    margin-right: 70%;
+    background-color:aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.valores{
+    margin-right: 70%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
