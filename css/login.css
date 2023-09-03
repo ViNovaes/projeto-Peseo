@@ -1,7 +1,8 @@
-div.container {
+
+div.box {
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 30%;
     background: white;
     min-width: 320px;
@@ -11,13 +12,32 @@ div.container {
     border-radius: 8px ;
 }
 
-main h2 {
-    font-weight: 600;
-    margin-bottom: 2rem;
-    position: relative;
+.w50{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
 }
 
-main h2::before {
+.box{
+    display: flex;
+    width: 930px;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 50px 10px;
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.form-box h2{
+    font-weight: 600;
+    position: relative;
+    font-size: 30px;
+}
+
+.form-box h2::before {
     content: '';
     position: absolute;
     height: 4px;
@@ -28,197 +48,81 @@ main h2::before {
     background: linear-gradient(45deg, #F6FA70, #0079FF);
 }
 
-img.figurePersom {
-    position: absolute;
-    bottom: 30%;
-    right: 5px;
-    z-index: 9996;
+
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
 }
 
-.cadastro {
-    text-align: center;
-    margin-top: 45px;
-    text-shadow: 1px 0px 0px #000000;
-}
-.cadastro a{
-    color: #82bafa;
-    text-decoration: none;
-
-}
-
-.cadastro a:hover{
-    color: #cecfa3;
+.form-box p a{
+    color: #0079FF;
     text-decoration: none;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.form-box form{
+    margin: 20px 0;
 }
 
-.input-field {
-    position: relative;
+form .input-group{
+    margin-bottom: 15px;
 }
 
-form .input-field:first-child {
-    margin-bottom: 1.5rem;
+form .input-group label{
+    color: #000000;
+    font-weight: bold;
+    /* display: block; */
+    margin-bottom: 5px;
 }
 
-.input-field .underline::before {
-    content: '';
-    position: absolute;
-    height: 1px;
+form .input-group input{
     width: 100%;
-    bottom: -5px;
-    left: 0;
-    background: rgba(0, 0, 0, 0.2);
+    height: 47px;
+    background-color: rgba(106, 136, 238, 0.116);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #325f96;
+    transition: all 0.4s ease;
 }
 
-.input-field .underline::after {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    bottom: -5px;
-    left: 0;
-    background: linear-gradient(45deg, #F6FA70, #0079FF);
-    transform: scaleX(0);
-    transition: all .3s ease-in-out;
-    transform-origin: left;
+form .input-group input:focus{
+    border-color: #0077ff;
 }
+
 
 .input-field input:focus~.underline::after {
     transform: scaleX(1);
 }
 
-.input-field input {
+form .input-group button{
+    width: 100%;
+    height: 47px;
+    background: #0079FF;
+    border-radius: 20px;
     outline: none;
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-}
-
-.input-field input::placeholder {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-form input[type="submit"] {
-    margin-top: 2rem;
-    padding: 0.4rem;
-    width: 100%;
-    background: linear-gradient(to left, #0079FF, #F6FA70);
+    border: none;
+    margin-top: 15px;
+    color: #F6FA70;
     cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 0.9rem;
-    font-weight: 300;
-    border-radius: 4px;
-    transition: all 0.3s ease;
+    font-size: 16px;
 }
-
-form input[type="submit"]:hover {
-    letter-spacing: 0.5px;
-    background: linear-gradient(to right, #0079FF, #F6FA70);
-}
-
-@media screen and (max-width: 1400px) {
-
-    div.container {
-        margin: 0;
-        margin-top: 15%;
-        margin-bottom: 10%;
-        margin-left: 30%;
-        margin-right: 25%;
-    }
-
-    img.figurePersom {
+@media (max-width:930px) {
+    .img-box{
         display: none;
     }
-}
-
-
-@media screen and (max-width: 999px) {
-
-    div.container {
-        margin: 0;
-        margin-top: 10%;
-        margin-left: 20%;
-        margin-right: 25%;
-        margin-bottom: 10%;
+    .box{
+        width: 700px;
     }
-
-    .cadastro {
-        size: auto;
-    }
-
-    img.figurePersom {
-        display: none;
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
     }
 }
-
-
-@media screen and (max-width: 500px) {
-
-    main.container {
-        margin: 0;
-        margin-top: 10%;
-        margin-left: 15% !important;
-        margin-right: 20%;
-        margin-bottom: 10%;
-    }
-
-    .cadastro {
-        text-align: center;
-        margin-top: 35px;
+@media (max-width:500px) {
+    .w50{
+        width: 100%;
+        padding: 0;
     }
 }
-
-@media screen and (max-width: 414px) {
-
-    main.container {
-        margin: 0;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 0% !important;
-        margin-right: 5%;
-        margin-bottom: 15%;
-    }
-
-    .cadastro {
-        text-align: center;
-        size: auto;
-    }
-}
-
-@media screen and (max-width: 164) {
-
-    main.container {
-        margin: 0;
-        margin-top: 10%;
-        margin-left: 2% !important;
-        margin-right: 5%;
-        margin-bottom: 15%;
-    }
-
-    .cadastro {
-        text-align: center;
-        size: auto;
-    }
-}
-
-@media screen and (max-width: 164) {
-
-    main.container {
-        margin: 0;
-        margin-top: 10%;
-        margin-left: 2% !important;
-        margin-right: 5%;
-        margin-bottom: 15%;
-    }
-
-    .cadastro {
-        text-align: center;
-        size: auto;
-    }
-}
-
-
